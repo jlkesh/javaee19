@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="col-6 offset-3">
+    <h3>Calculator</h3>
+    <form method="post" action="/calculator">
+        <div class="form-group">
+            <label for="a">Number One</label>
+            <input type="number" name="a" class="form-control" id="a" placeholder="Enter first Number">
+        </div>
+
+        <div class="form-group">
+            <label for="b">Number Two</label>
+            <input type="number" name="b" class="form-control" id="b" placeholder="Enter second Number">
+        </div>
+
+        <div class="form-group">
+            <label for="operator">Example Operator</label>
+            <select class="form-control" id="operator" name="operator">
+                <option value="+">Add</option>
+                <option value="-">Sub</option>
+                <option value="/">Div</option>
+                <option value="*">Mul</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate</button>
+    </form>
+</div>
+</body>
+</html>

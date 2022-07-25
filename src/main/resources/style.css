@@ -1,0 +1,38 @@
+.btn {
+    margin: 5px;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #342f2f;
+    background: rgb(131, 128, 128);
+}
+
+.btn:hover {
+    cursor: pointer;
+    outline: rgba(0, 255, 255, 0.27) solid 2px;
+}
+
+.btn-success {
+    color: white;
+    background: #18b118;
+}
+
+
+.btn-danger {
+    color: white;
+    background: red;
+}
+
+.btn-warning {
+    color: black;
+    background: orange;
+}
+
+.btn-small {
+    font-size: 14px;
+}
+
+.btn-large {
+    font-size: 34px;
+}
